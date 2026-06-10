@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maha Ganesh — Web Developer</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-name">MG.</div>
+    <div class="loader-bar">
+      <div class="loader-fill"></div>
+    </div>
+  </div>
+
+  <!-- CANVAS -->
+  <canvas id="particles"></canvas>
+
+
+
+
+
+  <!-- BLOBS -->
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+  <div class="blob b3"></div>
+
+  <!-- NAV -->
+  <nav id="mainNav">
+    <div class="nav-logo">MG.</div>
+    <div class="nav-links">
+      <a href="#about" data-text="About"><span>About</span></a>
+      <a href="#skills" data-text="Skills"><span>Skills</span></a>
+      <a href="#experience" data-text="Work"><span>Work</span></a>
+      <a href="#projects" data-text="Projects"><span>Projects</span></a>
+      <a href="#contact" data-text="Contact"><span>Contact</span></a>
+      <a href="sample/Maha%20resume%20003.pdf%20.pdf" download="Maha_Ganesh_Resume.pdf"
+        class="nav-resume-btn"><span>Resume</span></a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <div class="eyebrow-dot"></div>Open to Opportunities
+        </div>
+        <h1 class="hero-name">Maha<br><span class="glitch" data-text="Ganesh">Ganesh</span></h1>
+        <p class="hero-role" id="roleText"><span class="cursor-blink"></span></p>
+        <p class="hero-desc">A motivated Computer Science Engineering graduate building beautiful, responsive web
+          experiences — from pixel-perfect front-ends to powerful PHP back-ends.</p>
+        <div class="hero-cta">
+          <a href="sample/Maha%20resume%20003.pdf%20.pdf" download="Maha_Ganesh_Resume.pdf" class="btn-mag btn-fill">
+            <i class="fa-solid fa-download" style="display: inline-block; vertical-align: middle; margin-right: 6px;"></i>
+            Download Resume
+          </a>
+          <a href="#contact" class="btn-mag btn-ghost">Let's Talk</a>
+        </div>
+      </div>
+
+      <!-- Hero Visual (Illustration) -->
+      <div class="hero-visual">
+        <div class="hero-img-glow"></div>
+        <img src="images/me-removebg-preview.png" alt="Maha Ganesh" class="hero-img" />
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span class="scroll-text">Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="sec-label reveal">About Me</div>
+    <h2 class="sec-title reveal">Building web experiences<br>that truly matter.</h2>
+    <div class="about-grid">
+      <div class="about-text reveal-left d1">
+        <p>I'm a <strong>B.E. Computer Science Engineering</strong> graduate from K.L.N College of Engineering, Madurai
+          with a stellar <strong>CGPA of 8.00</strong>.</p>
+        <p>Through my internship at 123TotalWebSolution, I developed and maintained <strong>5+ responsive
+            websites</strong>, collaborated with senior developers, and improved page load times by <strong>25%</strong>
+          through code optimization.</p>
+        <p>I love bridging design and functionality — transforming ideas into seamless digital products using
+          <strong>HTML, CSS, JavaScript, PHP,</strong> and <strong>MySQL</strong>.
+        </p>
+      </div>
+      <div class="about-stats reveal-right d2">
+        <div class="stat-card">
+          <div class="stat-num"><span class="count-num" data-target="5">0</span>+</div>
+          <div class="stat-label">Websites Developed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num"><span class="count-num" data-target="25">0</span>%</div>
+          <div class="stat-label">Load Time Improved</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num"><span class="count-num" data-target="30">0</span>+</div>
+          <div class="stat-label">Bugs Fixed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num"><span class="count-num" data-target="8" data-decimal="1">0</span></div>
+          <div class="stat-label">CGPA Score</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="skills-inner">
+      <div class="sec-label reveal">Technical Skills</div>
+      <h2 class="sec-title reveal">Tools I craft with.</h2>
+      <div class="skills-grid">
+        <!-- HTML & CSS -->
+        <div class="skill-card skill-item reveal d1"
+          style="--skill-glow: rgba(227, 79, 38, 0.15); --skill-border: rgba(227, 79, 38, 0.35);">
+          <div>
+            <div class="skill-header">
+              <div class="skill-icon-wrap">
+                <div style="display: flex; gap: 8px; align-items: center;">
+                  <i class="fa-brands fa-html5" style="font-size: 1.8rem; color: #e34f26;"></i>
+                  <i class="fa-brands fa-css3-alt" style="font-size: 1.8rem; color: #1572b6;"></i>
+                </div>
+              </div>
+              <span class="skill-badge">95%</span>
+            </div>
+            <h3 class="skill-name">HTML & CSS</h3>
+            <p class="skill-desc">Crafting semantic, highly structured markups and fluid responsive layouts using CSS
+              Grid, Flexbox, and fluid typography.</p>
+          </div>
+          <div class="skill-progress-container">
+            <div class="skill-fill" data-width="95"></div>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="skill-card skill-item reveal d2"
+          style="--skill-glow: rgba(247, 223, 30, 0.12); --skill-border: rgba(247, 223, 30, 0.35);">
+          <div>
+            <div class="skill-header">
+              <div class="skill-icon-wrap">
+                <i class="fa-brands fa-square-js" style="font-size: 2rem; color: #f7df1e;"></i>
+              </div>
+              <span class="skill-badge">80%</span>
+            </div>
+            <h3 class="skill-name">JavaScript</h3>
+            <p class="skill-desc">Developing dynamic client-side experiences with ES6+ syntax, promise-based
+              asynchronous routines, APIs, and DOM logic.</p>
+          </div>
+          <div class="skill-progress-container">
+            <div class="skill-fill" data-width="80"></div>
+          </div>
+        </div>
+
+        <!-- Bootstrap -->
+        <div class="skill-card skill-item reveal d3"
+          style="--skill-glow: rgba(121, 82, 179, 0.18); --skill-border: rgba(121, 82, 179, 0.35);">
+          <div>
+            <div class="skill-header">
+              <div class="skill-icon-wrap">
+                <i class="fa-brands fa-bootstrap" style="font-size: 2rem; color: #7952b3;"></i>
+              </div>
+              <span class="skill-badge">88%</span>
+            </div>
+            <h3 class="skill-name">Bootstrap</h3>
+            <p class="skill-desc">Accelerating frontend builds using fluid grid columns, customized theme maps,
+              responsive utilities, and reusable component libraries.</p>
+          </div>
+          <div class="skill-progress-container">
+            <div class="skill-fill" data-width="88"></div>
+          </div>
+        </div>
+
+        <!-- PHP -->
+        <div class="skill-card skill-item reveal d4"
+          style="--skill-glow: rgba(119, 123, 180, 0.18); --skill-border: rgba(119, 123, 180, 0.35);">
+          <div>
+            <div class="skill-header">
+              <div class="skill-icon-wrap">
+                <i class="fa-brands fa-php" style="font-size: 2.2rem; color: #777bb4;"></i>
+              </div>
+              <span class="skill-badge">75%</span>
+            </div>
+            <h3 class="skill-name">PHP</h3>
+            <p class="skill-desc">Implementing backend server routines, object-oriented controllers, form routing,
+              session state validation, and secure dynamic scripting.</p>
+          </div>
+          <div class="skill-progress-container">
+            <div class="skill-fill" data-width="75"></div>
+          </div>
+        </div>
+
+        <!-- MySQL -->
+        <div class="skill-card skill-item reveal d1"
+          style="--skill-glow: rgba(0, 117, 143, 0.18); --skill-border: rgba(0, 117, 143, 0.35);">
+          <div>
+            <div class="skill-header">
+              <div class="skill-icon-wrap">
+                <i class="fa-solid fa-database" style="font-size: 1.8rem; color: #00758f;"></i>
+              </div>
+              <span class="skill-badge">72%</span>
+            </div>
+            <h3 class="skill-name">MySQL</h3>
+            <p class="skill-desc">Structuring relational tables, writing optimal query joins, designing database
+              schemas, indexing columns, and sanitizing input queries.</p>
+          </div>
+          <div class="skill-progress-container">
+            <div class="skill-fill" data-width="72"></div>
+          </div>
+        </div>
+
+        <!-- WordPress -->
+        <div class="skill-card skill-item reveal d2"
+          style="--skill-glow: rgba(33, 117, 155, 0.18); --skill-border: rgba(33, 117, 155, 0.35);">
+          <div>
+            <div class="skill-header">
+              <div class="skill-icon-wrap">
+                <i class="fa-brands fa-wordpress" style="font-size: 2rem; color: #21759b;"></i>
+              </div>
+              <span class="skill-badge">65%</span>
+            </div>
+            <h3 class="skill-name">WordPress</h3>
+            <p class="skill-desc">Configuring custom CMS back-ends, custom templates, plugin architectures, visual page
+              alignments, and optimizing block structures.</p>
+          </div>
+          <div class="skill-progress-container">
+            <div class="skill-fill" data-width="65"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="sec-label reveal">Experience</div>
+    <h2 class="sec-title reveal">Where I've worked.</h2>
+    <div class="timeline">
+      <div class="tl-item reveal d1">
+        <div class="tl-dot"></div>
+        <div class="tl-date">3 Months · 2024</div>
+        <div class="tl-title">Full Stack Web Development Intern</div>
+        <div class="tl-org">123TotalWebSolution · Coimbatore</div>
+        <div class="tl-desc">
+          Developed and maintained 5+ responsive websites using HTML, CSS, Bootstrap, JavaScript, and PHP. Integrated
+          MySQL databases and implemented full front-end to back-end data flows. Collaborated with senior developers to
+          debug 30+ issues, enhancing site stability and cutting load times by 25% through optimized code and asset
+          compression.
+        </div>
+        <div class="tl-tags">
+          <span class="tag">HTML/CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">PHP</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">Bootstrap</span>
+          <span class="tag">WordPress</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="projects-inner">
+      <div class="sec-label reveal">Projects</div>
+      <h2 class="sec-title reveal">Things I've built.</h2>
+      <div class="projects-grid">
+        <div class="project-card reveal d1">
+          <div class="card-glow"></div>
+          <div class="project-img-container">
+            <img src="images/to-do-list.png" alt="To Do List App Preview" />
+            <div class="project-img-overlay"></div>
+          </div>
+          <div class="project-info">
+            <div class="p-num">01</div>
+            <h3 class="p-name">To Do List App</h3>
+            <p class="p-desc">A highly interactive task management application featuring sleek layout styling, item
+              addition and deletion logic, and state persistence.</p>
+            <div class="p-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>LocalStorage</span></div>
+            <a href="https://mahaganesh16.github.io/todolist/" target="_blank" class="p-link">Live Preview
+              <span>→</span></a>
+          </div>
+        </div>
+        <div class="project-card reveal d2">
+          <div class="card-glow"></div>
+          <div class="project-img-container">
+            <img src="images/dashboard.png" alt="Finance Dashboard Preview" />
+            <div class="project-img-overlay"></div>
+          </div>
+          <div class="project-info">
+            <div class="p-num">02</div>
+            <h3 class="p-name">Finance Dashboard</h3>
+            <p class="p-desc">A responsive admin CRUD portal designed for financial tracking. Includes interactive data
+              tables, visual analytics cards, and profile panels.</p>
+            <div class="p-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>DOM API</span></div>
+            <a href="https://mahaganesh16.github.io/dashboard-app/" target="_blank" class="p-link">Live Preview
+              <span>→</span></a>
+          </div>
+        </div>
+        <div class="project-card reveal d3">
+          <div class="card-glow"></div>
+          <div class="project-img-container">
+            <img src="images/Amazon.png" alt="Amazon Clone Preview" />
+            <div class="project-img-overlay"></div>
+          </div>
+          <div class="project-info">
+            <div class="p-num">03</div>
+            <h3 class="p-name">Amazon Clone</h3>
+            <p class="p-desc">A precise replica of the Amazon bookstore homepage layout, highlighting advanced CSS Grid
+              layouts, interactive slider carousels, and responsive design systems.</p>
+            <div class="p-tech"><span>HTML5</span><span>CSS Grid</span><span>Flexbox</span><span>Responsive
+                Design</span></div>
+            <a href="https://mahaganesh16.github.io/test/" target="_blank" class="p-link">Live Preview
+              <span>→</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="sec-label reveal">Education</div>
+    <h2 class="sec-title reveal">My academic journey.</h2>
+    <div class="edu-grid">
+      <div class="edu-card reveal d1">
+        <div class="edu-year">2020 – 2024</div>
+        <div class="edu-degree">B.E. Computer Science Engineering</div>
+        <div class="edu-school">K.L.N College of Engineering, Madurai</div>
+        <span class="edu-grade">CGPA: 8.00</span>
+      </div>
+      <div class="edu-card reveal d2">
+        <div class="edu-year">2019 – 2020</div>
+        <div class="edu-degree">H.S.C — Higher Secondary</div>
+        <div class="edu-school">Velammal Matriculation Higher Secondary School, Thiruppuvanam</div>
+        <span class="edu-grade">65%</span>
+      </div>
+      <div class="edu-card reveal d3">
+        <div class="edu-year">2017 – 2018</div>
+        <div class="edu-degree">S.S.L.C — Secondary</div>
+        <div class="edu-school">Velammal Matriculation Higher Secondary School, Thiruppuvanam</div>
+        <span class="edu-grade">77%</span>
+      </div>
+    </div>
+    <div style="margin-top:60px">
+      <div class="sec-label reveal">Certificates</div>
+      <div class="edu-grid" style="margin-top:24px">
+        <div class="edu-card reveal d1">
+          <div class="edu-year">Certificate</div>
+          <div class="edu-degree">Full Stack Web Development</div>
+          <div class="edu-school">123coimbatore · 3 Months</div>
+        </div>
+        <div class="edu-card reveal d2">
+          <div class="edu-year">Certificate</div>
+          <div class="edu-degree">NPTEL – Internet of Things</div>
+          <div class="edu-school">National Programme on Technology Enhanced Learning</div>
+        </div>
+        <div class="edu-card reveal d3">
+          <div class="edu-year">Certificate</div>
+          <div class="edu-degree">Python Programming</div>
+          <div class="edu-school">Certified Python Developer Course</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-inner">
+      <div class="sec-label reveal" style="justify-content:center">Contact</div>
+      <h2 class="contact-big reveal">Let's build<br>something great.</h2>
+      <p class="contact-desc reveal d1">Currently open to new opportunities. Whether you have a project in mind or just
+        want to say hi — my inbox is always open!</p>
+      <div class="contact-links reveal d2">
+        <a href="mailto:mmahaganesh16@gmail.com" class="c-link">
+          <i class="fa-regular fa-envelope" style="font-size: 1.1rem; margin-right: 2px;"></i>
+          mmahaganesh16@gmail.com
+        </a>
+        <a href="tel:8838608103" class="c-link">
+          <i class="fa-solid fa-phone" style="font-size: 1.1rem; margin-right: 2px;"></i>
+          +91 88386 08103
+        </a>
+        <a href="https://www.linkedin.com/in/maha-ganesh84a972272/" target="_blank" class="c-link">
+          <i class="fa-brands fa-linkedin" style="font-size: 1.1rem; margin-right: 2px;"></i>
+          LinkedIn
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Designed & developed with <span>♥</span> · Maha Ganesh © 2024 · Madurai, Tamil Nadu</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
